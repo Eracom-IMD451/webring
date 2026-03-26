@@ -7,7 +7,7 @@ Alexander Burnevskiy	→
 Léa Corradi	→	
 Bastien Diserens	→	
 Theo Genovese	→	
-Thoebrave 	→	
+Theobrave 	→	
 Mariia Makovetska	→	
 Anaëlle Matondo Kiesse	→	
 Adrien Maurer	→	
