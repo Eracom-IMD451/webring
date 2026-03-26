@@ -1,0 +1,68 @@
+/* id451 Webring */
+
+#id451webring, #id451webring * {
+	font-family: monospace;
+	font-size: 16px;
+	line-height: 1;
+	transition: all 0.1s;
+}
+#id451webring {
+	color: #f1357a;
+	background-color: #fff;
+
+	width: max-content;
+	padding: 1em;
+	padding-bottom: 1.33em;
+
+	border-radius: 1em;
+	border: 2px solid #f1357a;
+	box-shadow: 0 0 16px #0006;
+
+	position: fixed; 
+	bottom: 24px;
+	  left: 24px;
+}
+#id451webring a {
+	color: inherit;
+	padding: 0.5em;
+	text-decoration-style: wavy;
+	text-decoration-skip-ink: none;
+	text-underline-offset: 0.33em;
+}
+
+#id451webring a:first-of-type span:before { 
+	content: "← ";
+}
+
+#id451webring a:last-of-type span:after { 
+	content: " →";
+}
+
+#id451webring a:first-of-type,
+#id451webring a:last-of-type { 
+	font-weight: bold;
+}
+#id451webring a:nth-of-type(2){ 
+	text-decoration: none;
+}
+
+#id451webring:has(a:first-of-type:hover),
+#id451webring:has(a:last-of-type:hover){
+	background-color: #f1357a;
+	color: #FFF6;
+	border: 2px solid #FFF;
+}
+#id451webring a:first-of-type:hover,
+#id451webring a:last-of-type:hover{
+	color: #FFF;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	opacity: 1;
+}
+
+#id451webring a:first-of-type:visited,
+#id451webring a:last-of-type:visited,
+.visited{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
